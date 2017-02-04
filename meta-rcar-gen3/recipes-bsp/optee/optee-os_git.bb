@@ -24,6 +24,8 @@ PV = "1.0.0+renesas+git${SRCPV}"
 COMPATIBLE_MACHINE = "salvator-x"
 PLATFORM = "rcar"
 
+DEPENDS = "python-wand-native python-pycrypto-native"
+
 export CROSS_COMPILE64="${TARGET_PREFIX}"
 
 # Let the Makefile handle setting up the flags as it is a standalone application
