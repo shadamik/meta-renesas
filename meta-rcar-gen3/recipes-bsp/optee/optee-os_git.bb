@@ -24,7 +24,7 @@ PV = "1.0.0+renesas+git${SRCPV}"
 COMPATIBLE_MACHINE = "salvator-x"
 PLATFORM = "rcar"
 
-DEPENDS = "python-pycrypto-native"
+DEPENDS = "python-pycrypto"
 
 export CROSS_COMPILE64="${TARGET_PREFIX}"
 
